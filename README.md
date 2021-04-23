@@ -1,3 +1,15 @@
+## Pontos a considerar
+
+- Criação  de um PWA feito em react
+- Na pasta worker.js é executada uma thread assíncrona, a mesma não acessa o DOM e não cria bloqueio para o usuário,cacheando todos os assets,deixando a aplicação mais rápida,
+cache configurado por 24 horas
+- sem uso de gerenciador de serviço http, foi usado o proprio fetch do browser
+- uso de memo para evitar renderização desnecessaria,pelo fato do componente ser apresentado uma unica vez
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
