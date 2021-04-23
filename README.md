@@ -1,3 +1,5 @@
+![image](https://github.com/che36/COVID19TRACKER/blob/master/src/screenshot/Covid19.png)
+
 ## Pontos a considerar
 
 - Criação  de um PWA feito em react
